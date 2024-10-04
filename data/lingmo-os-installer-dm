@@ -1,0 +1,4 @@
+/usr/bin/lingmoui-kwin_x11 &
+/usr/bin/lingmoui-settings-daemon &
+/usr/bin/sleep 5
+/usr/bin/lingmo-os-installer

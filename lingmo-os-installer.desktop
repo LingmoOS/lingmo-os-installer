@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Version=1.0
+Name=Install Lingmo OS
+Name[zh_CN]=安装 Lingmo OS
+GenericName=Lingmo OS Installer
+Exec=/usr/bin/lingmo-os-installer-live
+Comment=Lingmo — Installer for Lingmo OS Live
+Keywords=lingmo;system;install;debian;installer
+Icon=lingmo-os-installer
+Terminal=false
+Categories=Qt;System;
+StartupNotify=True

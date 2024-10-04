@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -e
+
+gsettings set org.lingmoui.power-manager sleep-computer-ac -1 || true
+gsettings set org.lingmoui.power-manager sleep-computer-battery -1 || true
+
+gsettings set org.lingmoui.screensaver idle-lock -1 || true
+gsettings set org.lingmoui.screensaver idle-delay -1 || true
+gsettings set org.lingmoui.screensaver idle-activation-enabled false || true
+
+gsettings set org.lingmoui.power-manager sleep-display-ac -1 || true
+gsettings set org.lingmoui.power-manager sleep-display-battery -1 || true
+
+
+
